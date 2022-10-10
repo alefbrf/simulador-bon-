@@ -1,0 +1,15 @@
+document.getElementById('jaw').addEventListener('click', function (e) {
+  if (document.getElementById('base').checked) {
+    document.querySelectorAll(".corbase").forEach(v => v.style.fill = jaw);
+    document.getElementById('CB').style.backgroundColor = jaw;
+  } if (document.getElementById('botoes').checked) {
+    document.querySelectorAll(".botao").forEach(v => v.style.fill = jaw);
+    document.getElementById('BT').style.backgroundColor = jaw;
+  }if(document.getElementById('gola2').checked){
+    document.querySelectorAll(".aba").forEach(v => v.style.fill = jaw);
+    document.getElementById('gi').style.backgroundColor = jaw;
+  }if(document.getElementById("punho").checked){
+    document.getElementById('fecho').style.fill = jaw;
+    document.getElementById('PU').style.backgroundColor = jaw;
+  }
+});
