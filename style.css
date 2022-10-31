@@ -483,6 +483,33 @@ border-bottom:1px solid #919191;
   .deletebase {
     display: none;
 }
+.acabamentos{
+    width:200px;
+    height:250px;
+}
+.download{
+    margin-left:22px;
+    margin-top:330;
+}
+.social_masculino {
+    padding-left: 0px;
+}
+.direita {
+    padding-left: 350px;
+}
+.costas {
+    padding-left: 350px;
+}
+.frente {
+    padding-left: 50px;
+}
+.cores, .coresb, .coresGE, .coresGI, .coresP, .coresVE, .coresVD, .coresBF, .coresBB {
+        left: 940px;
+}
+.uploader{
+    margin-top: 400px;
+    margin-left: 45px;
+}
 /*-------------------------------------------------------------------------------------------------------------*/
 /*-------------------------------------------------------------------------------------------------------------*/
 /*----------------------------------------Responsividade-------------------------------------------------------*/
@@ -558,7 +585,7 @@ border-bottom:1px solid #919191;
         height: 35px;
         font-size: 15px;
         padding: 2px;
-        left:-60px
+        left:-20px
     }
     .uploader{
         margin-top: 700px;
