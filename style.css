@@ -563,7 +563,7 @@ border-bottom:1px solid #919191;
     .switch__container2{
         display: flex;
         position: absolute;
-        left:145px;
+        left:90px;
         margin-top:500px;
         vertical-align: baseline;
         z-index: 13;
@@ -597,16 +597,16 @@ border-bottom:1px solid #919191;
     }
     .cores,.coresb,.coresGE, .coresGI,.coresP, .coresVE, .coresVD,.coresBF,.coresBB{
             visibility: hidden;
-            width: 300px;
-            height: 500px;
-            left:115px;
+            width: 235px;
+    height: 415px;
+    left: 75px;
             z-index: 22;
     }
 
     .optcolors{
         margin-top: 18%;
         width: 100%;
-        margin-left: 20px; 
+        margin-left: 5px; 
       }
     .optcolors form{
         display: grid;
@@ -640,8 +640,8 @@ border-bottom:1px solid #919191;
     }
 
     .acabamentos{
-    width: 300px;
-    height: 500px;
+    width: 200px;
+    height: 300px;
     z-index: 20;
     left: -10px;
     }
@@ -709,7 +709,7 @@ border-bottom:1px solid #919191;
     .botaocores {
         right: 0;}
     .social_masculino {
-        padding-left: 30px;
+        padding-left: 0px;
     }
     .uploader {
     right: 0;
